@@ -4,6 +4,8 @@ const { styles } = require('@ckeditor/ckeditor5-dev-utils');
 module.exports = {
   entry: './app.js',
 
+  mode: 'production',
+
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
