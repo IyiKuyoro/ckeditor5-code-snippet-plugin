@@ -25,7 +25,18 @@ BalloonEditor
       Underline,
       CodeSnippet,
     ],
-    toolbar: ['heading', 'bold', 'italic', 'numberedList', 'bulletedList', 'subscript', 'strikethrough', 'underline', 'image'],
+    toolbar: [
+      'heading',
+      'bold',
+      'italic',
+      'numberedList',
+      'bulletedList',
+      'subscript',
+      'strikethrough',
+      'underline',
+      'image',
+      'codeSnippet',
+    ],
   })
   .then((editor) => {
     console.log('Editor was initialized', editor);

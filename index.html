@@ -3,10 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>CKEditor 5 Framework – Implementing a code snippet</title>
+    <style>
+      .code-snippet {
+        background-color: #1b1b1b;
+        color: #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 1px 1px 11px grey;
+        padding: 10px;
+      }
+
+      .ck .ck-editor__nested-editable.ck-editor__nested-editable_focused, .ck .ck-editor__nested-editable:focus {
+        color: black;
+      }
+    </style>
   </head>
   <body>
     <div id="editor">
-      <p>Editor content goes here.</p>
     </div>
 
     <script src="dist/bundle.js"></script>

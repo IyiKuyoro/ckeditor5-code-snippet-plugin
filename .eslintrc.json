@@ -16,6 +16,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "class-methods-use-this": "off"
+        "class-methods-use-this": "off",
+        "no-underscore-dangle": "off",
+        "prefer-destructuring": "off"
     }
 }

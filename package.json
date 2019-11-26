@@ -34,6 +34,8 @@
     "@ckeditor/ckeditor5-list": "^15.0.0",
     "@ckeditor/ckeditor5-paragraph": "^15.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
+    "@ckeditor/ckeditor5-ui": "^15.0.0",
+    "@ckeditor/ckeditor5-widget": "^15.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.1.0",
     "style-loader": "^1.0.0",
