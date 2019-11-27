@@ -2,7 +2,7 @@
   "name": "ckeditor-code-snippet-plugin",
   "version": "0.0.1",
   "description": "A simple CKEditor5 plugin that helps create preformatted text in the rich text editor.",
-  "main": "./dist/bundle.js",
+  "main": "./dist/codesnippet.js",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "webpack --config webpack.config.js",
