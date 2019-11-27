@@ -1,6 +1,6 @@
 {
-  "name": "ckeditor-code-snippet-plugin",
-  "version": "0.0.1",
+  "name": "ckeditor5-code-snippet-plugin",
+  "version": "1.0.0",
   "description": "A simple CKEditor5 plugin that helps create preformatted text in the rich text editor.",
   "main": "./dist/codesnippet.js",
   "scripts": {
@@ -10,6 +10,10 @@
     "lint": "eslint --fix ./src",
     "prepare": "npm run dist",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IyiKuyoro/ckeditor5-code-snippet-plugin.git"
   },
   "files": [
     "dist",
