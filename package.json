@@ -6,8 +6,9 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "webpack --config webpack.config.js",
+    "dist": "rm -rf dist && babel codesnippet -d dist",
     "lint": "eslint --fix ./src",
-    "prepare": "npm run clean && mkdir dist && npm run build",
+    "prepare": "npm run dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -39,13 +40,16 @@
     "@ckeditor/ckeditor5-widget": "^15.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.1.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
-    "eslint": "^6.7.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "webpack-cli": "^3.3.10"
   }
 }
