@@ -1,6 +1,7 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import { toWidgetEditable } from '@ckeditor/ckeditor5-widget/src/utils';
 import Widget from '@ckeditor/ckeditor5-widget/src/widget';
+
 import InsertCodeSnippetCommand from './insertcodesnippetcommand';
 
 export default class CodeSnippetEditing extends Plugin {

@@ -3,3 +3,4 @@ node_modules
 dist
 build
 ckeditor-code-snippet-plugin-[0-9]*.tgz
+ckeditor5-code-snippet-plugin-[0-9]*.tgz

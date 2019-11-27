@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-code-snippet-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple CKEditor5 plugin that helps create preformatted text in the rich text editor.",
   "main": "./dist/codesnippet.js",
   "scripts": {
@@ -31,19 +31,19 @@
   "author": "Opeoluwa Iyi-Kuyoro",
   "license": "ISC",
   "dependencies": {
-    "@ckeditor/ckeditor5-basic-styles": "^15.0.0",
     "@ckeditor/ckeditor5-core": "^15.0.0",
+    "@ckeditor/ckeditor5-ui": "^15.0.0",
+    "@ckeditor/ckeditor5-widget": "^15.0.0"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^15.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
     "@ckeditor/ckeditor5-dev-utils": "^12.0.5",
     "@ckeditor/ckeditor5-editor-balloon": "^15.0.0",
     "@ckeditor/ckeditor5-essentials": "^15.0.0",
     "@ckeditor/ckeditor5-heading": "^15.0.0",
     "@ckeditor/ckeditor5-list": "^15.0.0",
     "@ckeditor/ckeditor5-paragraph": "^15.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
-    "@ckeditor/ckeditor5-ui": "^15.0.0",
-    "@ckeditor/ckeditor5-widget": "^15.0.0"
-  },
-  "devDependencies": {
     "@babel/cli": "^7.7.4",
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
