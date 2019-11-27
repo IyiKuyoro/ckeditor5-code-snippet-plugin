@@ -18,7 +18,7 @@ This plugin helps your create a code block or snippet in your rich text.
 3) Import the CodeSnippet plugin into the file that contains your editor like so
 
 ```javascript
-import CodeSnippet from 'ckeditor-code-snippet-plugin/dist/codesnippet';
+import CodeSnippet from 'ckeditor5-code-snippet-plugin/dist/codesnippet';
 ```
 
 4) In the `config` object, add `CodeSnippet` to the list of plugins.
