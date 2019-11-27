@@ -6,7 +6,7 @@ This plugin helps your create a code block or snippet in your rich text.
 
 ## How to Use
 
-1) To make use of this plugin, you will need to setup your editor using the framework. If you have not done so, bellow are links to the respective frontend framework specific docs for this. I will recommend you use a custom editor rather than the build.
+1) To make use of this plugin, you will need to setup your editor using the framework. If you have not done so, below are links to the respective frontend framework specific docs for this. I will recommend you use a custom editor rather than the build.
 
    - [Node](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/quick-start.html)
    - [Angular](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/angular.html#quick-start)
@@ -37,7 +37,7 @@ toolbar: [..., 'codeSnippet', ...],
 
 ## Styling the Preformatted Text
 
-To add custom styles to the preformatted text, you will need to add the following class to your global style. `code-snippet`. You may notice that the style gets overwritten when the `pre` element is in focus. To modify the override, add and edit the following selector as well `.ck .ck-editor__nested-editable.ck-editor__nested-editable_focused, .ck .ck-editor__nested-editable:focus`.
+To add custom styles to the preformatted text, you will need to add the following class to your global style; `code-snippet`. You may notice that the style gets overwritten when the `pre` element is in focus. To modify the override, add and edit the following selector as well `.ck .ck-editor__nested-editable.ck-editor__nested-editable_focused, .ck .ck-editor__nested-editable:focus`.
 
 ## Contributors
 
