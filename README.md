@@ -6,10 +6,10 @@ This plugin helps your create a code block or snippet in your rich text.
 
 ## How to Use
 
-1) To make use of this plugin, you will need to setup your editor using the framework. If you have not done so, below are links to the respective frontend framework specific docs for this. I will recommend you use a custom editor rather than the build.
+1) To make use of this plugin, you will need to setup your editor using the framework. If you have not done so, below are links to the respective frontend framework specific docs for this. I will recommend you use a custom editor rather than the build. If you are going to use the build, you will need to follow instructions found [here](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/installing-plugins.html#adding-a-plugin-to-a-build) to avoid the [duplicate modules error](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/support/error-codes.html#error-ckeditor-duplicated-modules).
 
    - [Node](https://ckeditor.com/docs/ckeditor5/latest/framework/guides/quick-start.html)
-   - [Angular](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/angular.html#quick-start)
+   - [Angular](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/angular.html#quick-start): Please note that you cannot build a custom editor for source yet for Angular. You will need to tinker with the build to use this plugin with your Angular project. [See instructions here](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/development/custom-builds.html)
    - [React](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/react.html#quick-start)
    - [Vue](https://ckeditor.com/docs/ckeditor5/latest/builds/guides/integration/frameworks/vuejs.html)
 
@@ -41,4 +41,4 @@ To add custom styles to the preformatted text, you will need to add the followin
 
 ## Contributors
 
-_Opeoluwa Iyi-Kuyoro_: 👨🏿[Profile](https://github.com/IyiKuyoro) - [WebSite](https://iyikuyoro.com)
+_Opeoluwa Iyi-Kuyoro_: 👨🏿[Profile](https://github.com/IyiKuyoro) - [WebSite](https://iyikuyoro.dev)
