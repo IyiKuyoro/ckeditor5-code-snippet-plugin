@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-code-snippet-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple CKEditor5 plugin that helps create preformatted text in the rich text editor.",
   "main": "./dist/codesnippet.js",
   "scripts": {
@@ -31,29 +31,30 @@
   "author": "Opeoluwa Iyi-Kuyoro",
   "license": "ISC",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^15.0.0",
-    "@ckeditor/ckeditor5-ui": "^15.0.0",
-    "@ckeditor/ckeditor5-widget": "^15.0.0"
+    "@ckeditor/ckeditor5-code-block": "*",
+    "@ckeditor/ckeditor5-core": "^20.0.0",
+    "@ckeditor/ckeditor5-ui": "^20.0.0",
+    "@ckeditor/ckeditor5-widget": "^20.0.0"
   },
   "devDependencies": {
-    "@ckeditor/ckeditor5-basic-styles": "^15.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^15.0.0",
-    "@ckeditor/ckeditor5-dev-utils": "^12.0.5",
-    "@ckeditor/ckeditor5-editor-balloon": "^15.0.0",
-    "@ckeditor/ckeditor5-essentials": "^15.0.0",
-    "@ckeditor/ckeditor5-heading": "^15.0.0",
-    "@ckeditor/ckeditor5-list": "^15.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^15.0.0",
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "eslint": "^6.7.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@ckeditor/ckeditor5-basic-styles": "^20.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^21.0.0",
+    "@ckeditor/ckeditor5-editor-balloon": "^20.0.0",
+    "@ckeditor/ckeditor5-essentials": "^20.0.0",
+    "@ckeditor/ckeditor5-heading": "^20.0.0",
+    "@ckeditor/ckeditor5-list": "^20.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^20.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^20.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^3.1.0",
-    "style-loader": "^1.0.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
