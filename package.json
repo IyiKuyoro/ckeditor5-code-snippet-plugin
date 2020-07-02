@@ -31,7 +31,6 @@
   "author": "Opeoluwa Iyi-Kuyoro",
   "license": "ISC",
   "dependencies": {
-    "@ckeditor/ckeditor5-code-block": "*",
     "@ckeditor/ckeditor5-core": "^20.0.0",
     "@ckeditor/ckeditor5-ui": "^20.0.0",
     "@ckeditor/ckeditor5-widget": "^20.0.0"
